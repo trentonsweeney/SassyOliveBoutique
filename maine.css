@@ -1,0 +1,165 @@
+ body{
+  font-family: 'Indie Flower', cursive;
+  background-color: #ff6699;
+  border: dotted #40E0D0 14px;
+}
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #AFEEEE; 
+  border: solid white 1px;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 20px;
+  color: #ff6699;
+  text-align: center;
+  padding: 14px 290px;
+  text-decoration: none;
+  border: solid white 1px;
+  font-family: 'Indie Flower', cursive;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: right;
+  overflow: hidden;
+  font-family: 'Indie Flower', cursive;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  text-align: center;
+  font-size: 20px; 
+  border: none;
+  outline: none;
+  color: #ff6699;
+  font-family: 'Indie Flower', cursive;
+  padding: 14px 90px;
+  background-color: inherit;
+  padding-left: 240px;
+  padding-right: 262px;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+  text-color: #ff6699;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  padding-right: 415px;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+img {
+  margin-top: 20px;
+  border: solid #40E0D0 4px;
+  border-radius: 100%;
+  margin-left: 40%;
+}
+p {
+  color: black;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: 35px;
+  margin-left: 1%;
+  text-align: center;
+}
+.portrait {
+  margin-left: 34%;
+  border: dotted white 7px;
+  border-radius: 10%;
+}
+.blue {
+  margin-left: 25%;
+  border: dotted white 9px;
+  border-radius: 10%;
+}
+.lace {
+  margin-left: 25%;
+  border: dotted white 9px;
+  border-radius: 10%;
+}
+.dot {
+  margin-left: 25%;
+  border: dotted white 9px;
+  border-radius: 10%;
+}
+.column1 {
+  float: left;
+  width: 33%; 
+}
+.column2 {
+  float: left;
+  width: 33%;
+}
+.column3 {
+  float: left;
+  width: 33%;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer{
+  font-size: 30px;
+  text-align: center;
+}
+.navbar a.active {
+  background-color: white;
+  color: #ff6699;
+}
+.price {
+  font-size: 22px;
+  padding-top: 5px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  padding-left: 50px;
+}
+.pr1ce {
+  font-size: 22px;
+  padding-top: 5px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  padding-left: 50px;
+}
+.pric3 {
+  font-size: 22px;
+  padding-top: 5px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  padding-left: 50px;
+}
