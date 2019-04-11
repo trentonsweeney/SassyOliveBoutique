@@ -17,7 +17,7 @@
   font-size: 20px;
   color: #ff6699;
   text-align: center;
-  padding: 14px 290px;
+  padding: 14px 15%;
   text-decoration: none;
   border: solid white 1px;
   font-family: 'Indie Flower', cursive;
@@ -38,10 +38,10 @@
   outline: none;
   color: #ff6699;
   font-family: 'Indie Flower', cursive;
-  padding: 14px 90px;
+  padding: 14px 20%;
   background-color: inherit;
-  padding-left: 240px;
-  padding-right: 262px;
+  padding-left: 200px;
+  padding-right: 292px;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
 }
@@ -54,7 +54,7 @@
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
-  padding-right: 415px;
+  padding-right: 20%;
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -83,7 +83,7 @@
   display: block;
 }
 img {
-  margin-top: 20px;
+  margin-top: 1%;
   border: solid #40E0D0 4px;
   border-radius: 100%;
   margin-left: 40%;
@@ -92,13 +92,13 @@ p {
   color: black;
   font-weight: bold;
   font-style: oblique;
-  font-size: 35px;
+  font-size: 100%;
   margin-left: 1%;
   text-align: center;
 }
 .portrait {
   margin-left: 34%;
-  border: dotted white 7px;
+  border: dotted white 700%;
   border-radius: 10%;
 }
 .blue {
@@ -135,7 +135,7 @@ p {
   clear: both;
 }
 footer{
-  font-size: 30px;
+  font-size: 175%;
   text-align: center;
 }
 .navbar a.active {
