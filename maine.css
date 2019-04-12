@@ -92,9 +92,10 @@ p {
   color: black;
   font-weight: bold;
   font-style: oblique;
-  font-size: 100%;
-  margin-left: 1%;
+  font-size: 300%;
+  margin-left: 10%;
   text-align: center;
+  margin-right: 10%;
 }
 .portrait {
   margin-left: 34%;
